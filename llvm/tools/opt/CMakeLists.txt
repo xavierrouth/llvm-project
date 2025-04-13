@@ -15,6 +15,7 @@ set(LLVM_LINK_COMPONENTS
   IPO
   IRReader
   IRPrinter
+  Garble
   InstCombine
   Instrumentation
   MC
