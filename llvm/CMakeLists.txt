@@ -1476,3 +1476,6 @@ if (XCODE)
     set_target_properties(${target} PROPERTIES XCODE_GENERATE_SCHEME ON)
   endforeach()
 endif()
+
+add_subdirectory(${CMAKE_SOURCE_DIR}/../GAR ${CMAKE_SOURCE_DIR}/../GAR/build)
+
